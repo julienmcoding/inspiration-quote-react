@@ -2,6 +2,13 @@
   transition: all 1.1s ease-in-out;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .container-btn {
   display: flex;
   align-items: center;

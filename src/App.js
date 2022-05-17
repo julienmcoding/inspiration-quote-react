@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 function App() {
   const [quotes, setQuotes] = useState([]);
   const [randomQuote, setRandomQuote] = useState("");
-  const [color, setColor] = useState("#111");
+  const [color, setColor] = useState("#77B1A9");
 
   useEffect(() => {
     async function fetchData() {
